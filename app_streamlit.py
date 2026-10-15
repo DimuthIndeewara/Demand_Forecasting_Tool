@@ -84,7 +84,7 @@ with right:
 
     color = alt.Color("series:N", title="",
                       scale=alt.Scale(domain=["Actual (recent)", "Forecast (your scenario)", "Forecast (no promo)"],
-                                      range=["#2C2C2A", "#4b43c4", "#b0b0b0"]))
+                                      range=["#E8743B", "#4b43c4", "#b0b0b0"]))
     dash = alt.StrokeDash("series:N",
                           scale=alt.Scale(domain=["Actual (recent)", "Forecast (your scenario)", "Forecast (no promo)"],
                                           range=[[1, 0], [1, 0], [5, 4]]), legend=None)
